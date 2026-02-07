@@ -69,7 +69,7 @@ Discord: slamzdank
 | Challenges |
 |-----------|
 |[OSINT](./OSINT)|
-|[OSINT Series](./OSINT\ SERIES)|
+|[OSINT Series](./OSINT SERIES)|
 |[Misc.](./MISC)|
 
 <p>If you want to check whether your flag is correct, feel free to hit us up on Discord!</p>
