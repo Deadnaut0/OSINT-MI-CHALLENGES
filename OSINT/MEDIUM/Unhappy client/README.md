@@ -1,8 +1,6 @@
 Author: sebtixd 
 
-bro i went for a long trip choose the most expensive hotel just to see the red tower .
-then i just get this view . 
-please find me the hotel name so i can give them 0 star . 
+シブティクド・サンがワンピースを探すため海を渡っていると、史上最高のホテルに偶然出会った。あまりにも素晴らしかったため、彼は船を福岡港に停泊させた。彼がカーソルを置いたあの驚異の場所を、あなたは辿れるだろうか?
 
-flag format: OsintMI{Hotel_Name}
+flag format : OsintMI{Hotel_Name}
 

@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>IMF Secure Transmission</title>
+
+<style>
+body {
+    background: black;
+    color: #ddd;
+    font-family: monospace;
+    text-align: center;
+    margin-top: 80px;
+}
+
+.invisible {
+    color: rgb(0,0,1);
+    user-select: none;
+}
+
+:root {
+    --intel-a: 121,111,117;
+    --intel-b: 95,100,105,100;
+    --intel-c: 95,105,116,95;
+}
+
+#ghost {
+    display: none;
+    white-space: pre;
+    font-size: 12px;
+}
+</style>
+</head>
+
+<body>
+
+<h1>IMF SECURE TRANSMISSION</h1>
+<p>CHANNEL STATUS: ACTIVE</p>
+<p>Only trained agents extract meaning.</p>
+
+<p>
+    A⁣‌‍⁣g⁣​​‌e﻿⁣﻿‌n⁣​​​t​⁣‌⁣ ​‌​⁢s⁤⁠⁤⁣t⁠​‌⁤a‍‌﻿​t⁢﻿‌⁣u﻿​﻿⁤s⁣‌‍﻿ ‌⁣﻿​c‌⁤⁣‌o⁢﻿⁤‌n⁣⁤⁤﻿f‌﻿﻿⁤i‌⁢‍​r⁣​⁢⁠m​⁠‌⁣e⁠⁤⁤d.
+</p>
+
+<p>Transmission integrity: verified.</p>
+
+<p id="css-flag"></p>
+
+<div id="ghost"></div>
+
+<script>
+(() => {
+    const styles = getComputedStyle(document.documentElement);
+    const nums = [
+        ...styles.getPropertyValue('--intel-a').split(','),
+        ...styles.getPropertyValue('--intel-b').split(','),
+        ...styles.getPropertyValue('--intel-c').split(',')
+    ].map(n => String.fromCharCode(parseInt(n)));
+
+    document.getElementById('css-flag').textContent = '';
+})();
+
+(() => {
+    const data = [
+        [0,0,0,0,0],
+        [0,0,0,0,0],
+        [0,0,0,0,0],
+        [0,0,0,0,0],
+        [0,0,0,0,0]
+    ];
+
+    const letters = {
+        A: data,
+        G: [
+            [1,1,1,0,0],
+            [1,0,0,1,0],
+            [1,1,1,1,0],
+            [1,0,0,0,1],
+            [1,1,1,1,0]
+        ],
+        E: [
+            [1,1,1,1],
+            [1,0,0,1],
+            [1,0,0,1],
+            [1,0,0,1],
+            [1,1,1,1]
+        ],
+        N: [
+            [1,0,0,1],
+            [0,1,1,0],
+            [0,1,0,0],
+            [0,1,0,0],
+            [1,0,0,0]
+        ],
+        T: [
+            [0,0,1,0,0],
+            [0,0,1,0,0],
+            [0,0,1,0,0],
+            [0,0,0,0,0],
+            [0,0,1,0,0]
+        ],
+       S: [ [1,1,1,0,0],
+            [0,0,1,0,0],
+            [0,0,1,1,0],
+            [0,0,1,0,0],
+            [1,1,1,0,0]
+        ]
+    };
+
+    const word = ["A","G","E","N","T","S"];
+    let output = "";
+
+    for (let row = 0; row < 5; row++) {
+        word.forEach(l => {
+            letters[l][row].forEach(p => {
+                output += p ? "#" : " ";
+            });
+            output += "  ";
+        });
+        output += "\n";
+    }
+
+    document.getElementById("ghost").textContent = output;
+})();
+</script>
+
+</body>
+</html>

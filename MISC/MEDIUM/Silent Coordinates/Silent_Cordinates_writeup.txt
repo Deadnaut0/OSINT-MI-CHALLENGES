@@ -1,0 +1,25 @@
+ step 1
+el file eli aatithoulhm houwe binary file ame ki y7louh  bch yl9w texte mn ghdike yfhmou enou encoded w mch brsmi binary file w ki ythbtou fl texte bch yl9wh ychbh ll base64 just fih characters kime & @ # w ! donc mn ghadi  yfhmou enou base64 just zdt aalih charcters ekm bch nghlthm chwy
+step 2
+ ymchiw yn7iw el characters ezeydin w baad e decodiw el text
+step 3
+ylzmhm y7ddou chnou type taa el file yatl3lhm gzip compressed data ybdloulou esmou w decompressiouh
+step 4
+baad yaffichiw lcontent taa lfile eli decompressouh yl9w e texte hedhe:""Ethan disappeared without a trace in a city shrouded in mist.
+
+"The City of Fog"
+
+The lions wake early.
+The painter never sleeps.
+
+The streets are loud this time of year.
+Nothing stays the same for long.
+Some things are better left unsaid.
+Timing matters more than distance.""
+step 5
+tw e text eli tlaalhm mnou houwe bch ytl3ou lflag
+awl 7eje ydentifiou lville "the city of fog " eli hye London  w baad m texte lkhr lkl bch ystfdou mn jmltin khw bch ytl3ou lblasa weli houme "The lions wake early.
+The painter never sleeps."
+the lions tdl aale les status mtaa e lions w the painter ydl aale maardh feni w fi London lblasa lwe7ide eli tjmaa bin l7jtin hedhm hye Trafalgar Square
+w heke yktbou lflag
+OsintMI{TRAFALGAR_SQUARE}
