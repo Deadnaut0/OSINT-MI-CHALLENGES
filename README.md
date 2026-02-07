@@ -1,5 +1,5 @@
-<h1 align="center" style="color: darkblue;">🎯 CyberTrace MiniCTF Repository</h1> 
-<p align="center"> A collection of the challenges you solved in the CyberTrace MiniCTF (24/10/2025) </p>
+<h1 align="center" style="color: darkblue;">🎯 CyberTrace OSINT: Mission Impossible Repository</h1> 
+<p align="center"> A collection of the challenges you solved in the CyberTrace OSINT (30/01/2026) </p>
 
 ---
 
